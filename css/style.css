@@ -2,7 +2,7 @@
 /* navigation bar */
 header {
   background-color: grey;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   height: 100px;
 }
 
@@ -17,21 +17,21 @@ nav {
 }
 
 nav div{
-  margin: 15px 30px 15px 0;
+  margin: 15px 50px 15px 0;
   width: 200px;
 }
 
 .nav-icons {
   width: 760px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   margin: 0;
 }
 
 a{
   color: white;
   text-decoration-line: none;
-  margin: 42px 0;
+  margin: 42px 100px 0 0;
 }
 
 /* Main Content */
@@ -44,7 +44,7 @@ main {
 
 main article {
   width: 960px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .middle {
@@ -67,10 +67,27 @@ main article {
 }
 
 .text div {
-  height: 380px;
+  height: 370px;
   overflow: auto;
 }
 
 .text button {
-  height: 20px;
+  height: 30px;
+  background-color:grey;
+  color: white;
+  padding: 2px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1px;
+  transition: 0.35s;
+}
+
+.text button:hover {
+  background-color: black;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: grey;
 }
